@@ -1,0 +1,1650 @@
+/*======================================
+Theme Name: divi-child
+Theme URI: https://divicake.com/
+Description: theme pour le site Trinite Conseil
+Version: 1.0
+Author: stephane kergoat
+Author URI: https://www.skergoat.com
+Template: Divi
+======================================*/
+
+* {
+  font-family: 'Comic Sans MS', arial;
+}
+
+#et-info-phone,
+#et-info-openinghours,
+.contact-us-content p:nth-child(2), 
+.contact-us-content p:nth-child(4),
+.who-we-are-text p {
+
+color:#7A4912 !important;
+
+}
+
+
+a {
+	cursor:pointer;
+}
+
+h1, h2 {
+	color:#A4328A;
+	font-weight:bold;
+}
+
+.strong {
+	font-weight:bold;
+	color:black;
+	font-size:16px;
+	line-height:28px;
+}
+
+.justify {
+	text-align:justify;
+}
+
+.content-big-size {
+	font-size:18px;
+}
+
+.indent-5 {
+	text-indent:5%;
+}
+
+.indent-0 {
+	text-indent:0%;
+}
+
+.r-rose {
+	color:#A4328A;
+}
+
+.hr-rose {
+
+	margin: auto; 
+	margin-top: 20px;
+	margin-bottom: 30px; 
+	width: 50%; 
+	border: 0.5px solid #983D86;
+}
+
+.img-float-left {
+	
+  	float:left;
+  	margin-right:20px;
+  	margin-top:10px;
+}
+
+.img-shadow {
+
+	box-shadow:0px 6px 15px -6px rgba(0,0,0,0.41);
+  	border-radius:5px;
+}
+
+.flex {
+	display:flex;
+}
+
+.container {
+
+	width:100%;
+}
+
+
+#menu-container {
+
+	/*width:100%;*/
+	max-width:1200px;
+	width:90%;
+}
+
+.p-line {
+
+	line-height:1.9em;
+	font-size:16px;
+	margin-bottom:50px;
+}
+
+/* content */
+
+/* div */
+.container-content {
+	margin-bottom:30px;
+}
+
+/* titres */
+.h2-content {
+	margin-bottom:15px;
+	line-height:30px;
+	text-align:justify;
+	font-size:24px
+}
+
+.h3-content {
+	margin-bottom:10px;
+	font-weight:bold;
+}
+
+/* p */
+
+#before-ul {
+	text-indent:0%;
+}
+
+.p-content {
+	font-size:16px;
+	line-height:27px;
+	margin-bottom:10px;
+}
+
+.div-content {
+
+	text-align:justify;
+	padding-top:50px;
+}
+
+.ul-content {
+	font-size:15px;
+	text-indent:0%;
+	line-height:27px;
+}
+
+.ul-content li {
+	margin-bottom:15px;
+	font-size:16px;
+	line-height:27px;
+	hyphens:auto;
+}
+
+.ul-content li:last-child {
+	margin-bottom:30px;
+}
+
+#content-head {
+	text-align:justify;
+	margin:auto;
+	width:800px;
+}
+
+#p-last-2, #p-last-1, #p-last {
+	padding-bottom:1rem;
+}
+
+/* a */
+
+.link-decoration {
+	text-decoration:underline;
+}
+
+
+
+/******* HOMEPAGE ********/
+
+/* header */
+
+div.et_pb_section.et_pb_section_1.home-background {
+  
+  	background-image:url(http://triniteconseil.fr/wordpress/wp-content/uploads/2019/10/accueil-desktop-min.jpg) !important;
+  	background-size:cover;
+}
+
+/* Many filters are in elements */
+.filters {
+	
+	position:relative;
+	bottom:100px;
+	background: rgba(0,0,0, .05) radial-gradient(ellipse farthest-corner at center center,rgba(0,0,0,.05) 0,rgba(0,0,0,.05) 100%) repeat scroll 0 0;
+}
+
+#filter-1,
+#filter-2,
+#filter-3,
+#filter-4 {
+	
+	z-index:0;
+}
+
+/*** secondary nav ***/
+
+/* secondary spacing */
+#et-info, #et-secondary-menu>ul>li a {
+	display:flex;
+	justify-content: space-between;
+	width:100%;
+}
+
+#et-info-openinghours {
+	display:block;
+}
+
+#et-info-phone span
+ {
+	margin:0px 50px 0px 50px;
+}
+
+#et-info-openinghours span {
+	margin:0px 30px 0px 30px;
+}
+
+/* fonts */
+#et-info-phone, #et-info-openinghours {
+	font-size:15px;
+}
+
+/*** primary nav  ***/
+
+#main-header {
+	background:#9AC355;
+}
+
+/* logo size */
+#logo {
+	max-height:100%;
+}
+
+/* menu items spacing */
+.et_header_style_left #et-top-navigation nav>ul>li>a {
+	margin-left:30px;
+	opacity:1;
+}
+
+#top-menu a {
+
+	transition:0s;
+	-moz-transition:0s;
+}
+
+/* menu items color */
+#top-menu a:hover {
+	color:#a4328a;
+}
+
+/* dropdown */
+
+/* background */
+#main-header .nav li ul {
+	padding:0px;
+	right:-30px;
+}
+
+/* size */
+.nav li ul {
+	width:200px;
+	box-shadow: 2px 2px 5px 0px rgba(100,100,100,1);
+
+}
+
+/* menu */
+
+/* menu items */
+#top-menu li li {
+	padding:0px;
+	width:100%;
+}
+
+#main-header .nav li ul a {
+	text-align:center;
+	margin:0px;
+	border-bottom:0.05rem solid #343434;
+}
+
+/* menu hover */
+.nav li:hover > ul a:hover{
+	background:#E8E8E8;
+}
+
+#main-header .nav li ul a:hover {
+	color:#a4328a;
+	opacity:1;
+}
+
+
+
+
+/*** header ***/
+
+/* suppress titles from pages */
+.entry-title { 
+	display:none;
+}
+
+
+/*** section-2 : icones ***/
+
+#icone_1 {
+	position:relative;
+	top:-110px;
+}
+
+#icone_2 {
+	position:relative;
+	top:-100px;
+}
+
+#icone_3 {
+	position:relative;
+	top:-70px;
+}
+
+#icone_4 {
+	position:relative;
+	top:-60px;
+}
+
+/*** section 3 ***/
+
+.text-container {
+
+	width:500px;
+}
+
+/*** section-3 ***/
+
+.container-paragraph {
+	display:flex;
+	flex-direction:row;
+}
+
+.paragraph {
+	text-align:justify;
+	width:50%;
+}
+
+.paragraph-1, .paragraph-who {
+	padding-right:50px;
+}
+
+.paragraph-2 {
+	padding-left:50px;
+}
+
+/*** section 4 ***/
+
+.identity-titre {
+	text-align:center;
+	margin-bottom:20px;
+	font-weight:bold;
+	color:white;
+	font-size:35px;
+}
+
+/* identity pictures*/
+.identity-picture-container {
+	display:flex;
+}
+
+.identity-pictures-div {
+	width:50%;
+	position:relative;
+}
+
+.div-qui-sommes {
+	
+  width:230px;
+  margin:auto;
+}
+
+.identity-pictures-img {
+	width:230px;
+	border-radius:250px;
+	box-shadow: 0px 6px 6px -2px rgba(64,64,64,1);
+  	height:227px;
+}
+
+#first-identity-pictures {
+	margin-right:50px;
+	position:absolute;
+	right:0px;
+}
+
+#second-identity-pictures {
+	margin-left:50px;
+}
+
+/* who-we-are texts */
+.who-we-are-container {
+	display:flex;
+	justify-content:space-between;
+}
+
+/* container */
+.who-we-are {
+	display:flex;
+	box-shadow: 0px 6px 6px -2px rgba(74,74,74,1);
+	border-radius:20px;
+	width:100%;
+}
+
+/* spacing */
+.wwa-1 {
+	margin-right:15px;
+}
+
+.wwa-2 {
+	margin-left:15px;
+}
+
+/* content */
+.who-we-are-icon {
+	width:25%;
+	background:#EBEBEB;
+	padding:10px;
+	display:flex;
+	align-items:center;
+	border-radius:20px 0px 0px 20px;
+}
+
+.who-we-are-icon img {
+	display:block;
+	margin:auto;
+}
+
+#psy-2, #psy-3 {
+	width:50px;
+}
+
+#psy-1, #psy-4 {
+	width:85px;
+}
+
+.who-we-are-text {
+	width:100%;
+	text-align:justify;
+	hyphens:auto;
+	word-wrap:break-word;
+	background:white;
+	padding:5% 4%;
+	border-radius:0px 20px 20px 0px;
+	/*font-size:15px;*/
+}
+
+.first-row {
+	padding-top:15px;
+	padding-bottom:17px;
+}
+
+.who-we-are-text h3 {
+	text-align:center;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+
+/*** section 5 ***/
+
+/* containers */
+.contact-us {
+	background:white;
+	border-radius:20px;
+	padding:20px 30px;
+	padding-bottom:40px;
+	width:700px;
+	margin:auto;
+	box-shadow: 0px 4px 6px 1px rgba(64,64,64,1);
+}
+
+.contact-us h2 {
+	text-align:center;
+	font-size:35px;
+	font-weight:bold;
+	color:#af469a;
+}
+
+.contact-us-container {
+	display:flex;
+}
+
+.contact-us-content-1 {
+	width:50%;
+}
+
+/* content */
+.contact-us-content {
+	text-align:center;
+	margin-top:30px;
+}
+
+.contact-us-content p:first-child, .contact-us-content p:nth-child(3) {
+	color:#af469a;
+	font-weight:bold;
+	font-size:17px;
+	margin-bottom:20px;
+}
+
+.contact-us-content p:nth-child(2), .contact-us-content p:nth-child(4) {
+	font-weight:bold;
+	color:black;
+	font-size:35px;
+}
+
+.footer-divider {
+	padding-top:250px;
+	position:relative;
+	top:0px;
+	background:#af469a;
+	width:2px;
+}
+
+/* testimonial */
+
+.et_pb_slide_content p:last-of-type {
+	text-align:justify;
+}
+
+.lazyloaded { 
+	margin-right:20px;
+}
+
+
+/*** footer ***/
+
+/* padding */
+body.et_divi_theme #footer-bottom {
+	padding-bottom:20px!important;
+}
+
+#footer-bottom {
+	padding:0px;
+	padding:20px 0px 20px 0px;
+}
+
+/* link */
+
+.container-footer div a {
+	color:#9ac355;
+}
+
+/* text */
+.container-footer {
+	display:flex;
+	justify-content: space-between;
+}
+
+.container-footer div:nth-child(2) {
+  	margin-right:120px;
+}
+
+.container-footer div {
+	color:white;
+}
+
+
+/** paypal page **/
+
+/* connexion page */
+.et_password_protected_form {
+  	
+  height:100vh;
+  padding-top:250px;
+  text-align:center; 
+  color:black;
+  font-size:17px;
+  margin:auto;
+   width:500px;
+}
+
+.et_password_protected_form p input {
+	border-radius:20px !important;
+  border:1px solid #9CA3A6 !important;
+  background-color:white !important;
+}
+
+.et_password_protected_form .et_submit_button {
+ 	
+  color:white !important;
+  border:2px solid #0070C0 !important;
+  background:#0070C0;
+}
+
+.et_password_protected_form .et_submit_button:hover {
+ 	
+  color:white !important;
+  border:2px solid #0070C0 !important;
+  background:#0070C0;
+  padding:.3rem 2rem !important;
+}
+
+
+
+
+/******* COUNSELLING *******/
+
+.position-sub-ul {
+	width:100%;
+	margin-left:2%;
+}
+
+.list-flex {
+	display:flex;
+	justify-content:space-between;
+	width:85%;
+	margin:auto;
+	margin-bottom:30px;
+	margin-left:2%;
+}
+
+#consulting-column-2 {
+	display:flex;
+	flex-direction:row;
+}
+
+.ul-content.ul-small li:last-child {
+	margin-bottom:50px;
+}
+
+#counselling-section-4 {
+	width:80%;
+	margin:auto;
+}
+
+.consulting-outro {
+	margin-bottom:1.5rem;
+}
+
+
+/******* WHO ARE WE ? *******/
+
+/* section 1 */
+
+.entry-content ul {
+	padding-bottom:0px;
+}
+
+.title-identity {
+	text-align:center;
+	font-weight:bold;
+	font-size:40px;
+	line-height:50px
+}
+
+.identity-content {
+	text-align:left;
+	font-size:18px;
+	font-weight:bold;
+	margin-top:30px;
+	margin-bottom:90px;
+	padding-top:30px;
+}
+
+#jmr-title {
+	margin-bottom:65px;
+}
+
+#jmr-content {
+	margin-bottom:50px;
+	padding-top:0px;
+}
+
+#jmr-container {
+	padding-top:20px;
+	padding-left:50px;
+}
+
+/* pictures */
+
+.logo-flex {
+	width:100%;
+	display:flex;
+}
+
+#fr img, #jmr img {
+
+	width:140px;
+	display:block;
+	margin:auto;
+}
+
+
+/******* IMAGO *******/ 
+
+.link-bottom {
+	position:relative;
+	top:10px;
+}
+
+
+/******* PRICING *******/
+
+table {
+	box-shadow: 4px 4px 5px -3px rgba(80,80,80,0.75);
+}
+
+sup {
+	position:relative;
+	top:-5px;
+	left:5px;
+	margin-right:10px;
+	color:#983D86;
+	font-size:15px;
+}
+
+.pricing {
+	text-indent:10%;
+}
+
+table, .entry-content tr td {
+
+	text-align:center;	
+	font-size:18px;
+	empty-cells: hide;
+}
+
+.entry-content tr td {
+
+	border:1px solid black;
+
+}
+
+
+.span-col-2 {
+	font-size:25px;
+	font-weight:bold;
+}
+
+.col-span-3, th {
+	font-weight:bold;
+}
+
+.table-2 {
+	width:90%;
+	background:#F4F4F4;
+	margin:auto;
+}
+
+.table-2 th, .table-2 td {
+	height:70px;
+} 
+
+.table-white {
+	background:white;
+}
+
+#table-1 {
+	width:800px;
+	margin:auto;
+}
+
+#table-1 th, #table-1 td {
+	height:70px;
+}
+
+.calcul {
+	font-size:15px;
+	width:200px;
+}
+
+.empty-cell-1 {
+	border-top:1px solid #F4F4F4;
+	border-left:1px solid #F4F4F4;
+	background:#F4F4F4;
+}
+
+.entry-content table, body.et-pb-preview #main-content .container table {
+	border:1px solid transparent;
+}
+
+#empty-cell-2 {
+	border-top:1px solid white;
+	border-left:1px solid white;
+	background:white;
+}
+
+ #empty-cell-3 {
+
+ 	border-top:1px solid #F4F4F4;
+	border-left:1px solid #F4F4F4;
+	background:#F4F4F4;
+
+ }
+
+
+/******* CONTACT ********/
+
+/* contact row */
+
+.contact-row-container {
+	background:#F4F4F4;
+	display:flex;
+}
+
+.contact-row-img {
+	position:relative;
+	top:40px;
+	z-index:1;
+	height:45vh;
+	object-fit:cover;
+}
+
+.contact-us-container.contact-row-content {
+	width:800px;
+	background:white
+}
+
+.contact-us-content-1.contact-row-content-1 {
+	padding-top:35px;
+}
+
+/* mail */
+#pre-footer-contact {
+	z-index:2000;
+	position:relative;
+}
+
+/* contact form */
+#popmake-676 {
+	width:500px;
+	padding:30px;
+	padding-bottom:0px;
+}
+
+form.wpcf7-form {
+	padding:10px 10px 10px 10px;
+}
+
+.pum-overlay, 
+.pum-overlay *, 
+.pum-overlay ::after, 
+.pum-overlay ::before, 
+.pum-overlay::after, 
+.pum-overlay::before, 
+textarea.wpcf7-form-control.wpcf7-textarea {
+	width:100%;
+}
+
+input.text, input.title, input[type="text"], input[type="email"], input[type="tel"], select, textarea {
+	border-radius:10px;
+	height:40px;
+	margin-top:15px;
+	font-size:18px;
+	box-shadow: inset 0px 0px 3px 0px rgba(0,0,0,0.2);
+}
+
+input:focus,
+input.text:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+	border-color:#85296F;
+}
+
+textarea {
+	height:200px;
+}
+
+.wpcf7-form-control.wpcf7-submit {
+
+	width:40%;
+	display:block;
+	margin:auto;
+}
+
+label {
+	font-weight:bold;
+}
+
+input[type="submit"] {
+	padding:7px 7px 7px 7px;
+	border-radius:20px;
+	font-size:20px;
+	color:white;
+	border:none;
+	background:#A4328A;
+	cursor:pointer;
+	box-shadow: 0px 3px 4px 0px rgba(0,0,0,0.5);
+	transition:0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+	background:#85296F;
+	transition:0.3s ease-in-out;
+}
+
+.grecaptcha-badge {
+	z-index:10000000;
+	position:fixed;
+	opacity:0;
+}
+
+div.wpcf7-response-output {
+	margin:0px;
+}
+
+
+/* map and address footer */
+.address-container {
+	width:50%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.address-div p {
+	font-size:32px;
+	font-weight:bold;
+	color:#963C84;
+}
+
+.address-div p:nth-child(1), .address-div p:nth-child(2) {
+	margin-bottom:18px;
+}
+
+
+
+/**** OTHER GENERAL DESIGN ****/
+
+.entry-content .ul-small {
+	list-style-type:circle;
+	font-size:15px;
+	padding-left:50px
+}
+
+@media all and (max-width:1200px) {
+
+	/******* HOMEPAGE *******/
+  
+
+	div.et_pb_section.et_pb_section_1.home-background {
+     
+      background-image:url(http://triniteconseil.fr/wordpress/wp-content/uploads/2019/10/accueil-mobile-min.jpg) !important;
+      background-size:cover;
+   }
+
+	/*** secondary nav ***/
+
+	#top-menu .menu-item-has-children>a:first-child {
+
+		padding-right:15px;
+	}
+
+	#et-info, #et-secondary-menu>ul>li a {
+		display:flex;
+		justify-content: center;
+		width:100%;
+	}
+
+	#et-info-openinghours {
+		display:none;
+	}
+
+	/* fonts */
+	#et-info-phone, #et-info-openinghours {
+		font-size:15px;
+	}
+
+	/* spacing */
+	#et-info-phone span
+	{
+		margin:0px 10px 0px 10px;
+	}
+
+	#et-info-openinghours span {
+		margin:0px 10px 0px 10px;
+	}
+
+	/*** primary menu ***/
+
+	/* menu position */
+	.et_header_style_left #et-top-navigation nav>ul>li>a {
+		margin-left:15px;
+	}
+
+	/* hamburger color */
+	#et-top-navigation span.mobile_menu_bar:before, 
+	#et-top-navigation span.mobile_menu_bar:after {
+		color: #a4328a !important;
+		font-size:40px;
+	}
+
+	/*** dropdown ***/
+
+	/* items spacing */
+	.et_mobile_menu {
+		border-top:3px solid #a4328a;
+		padding:0px;
+	}
+
+	#main-header .et_mobile_menu li ul, .et_mobile_menu li li {
+		padding-left:0px;
+	}
+
+	/* border */
+	.et_mobile_menu li a {
+		border-bottom:0.05rem solid #343434;
+	}
+
+	/* dropdown menu cannot be customized from child theme. 
+	That's why CSS has been customized in the Divi theme CSS customizer.
+	This CSS is copied and saved in this file - the lines bellow - in 
+	the case of Divi update would overwrite it */
+
+	/*** nav mobile ***/
+	
+	/* shadow */
+	.et_mobile_menu {
+		box-shadow: 2px 2px 5px 0px rgba(100,100,100,1);
+	}
+	
+	/* colors */
+	#main-header .et_mobile_menu, .et_mobile_menu .menu-item-has-children>a {
+		background:#DFDFDF;
+	}
+	
+	.et_mobile_menu .menu-item-has-children ul li a {
+		background:white;
+	}
+	
+	.et_mobile_menu li a {
+		color:#343434;
+	}
+	
+	/* hover */
+	
+	.et_mobile_menu li a:hover {
+		color:#a4328a;
+		opacity:1;
+	}
+	
+	.et_mobile_menu .menu-item-has-children ul li a:hover, .et_mobile_menu li a:hover  {
+		background:#C8C8C8;
+	}
+
+
+	/*** section-3 ***/
+
+	.container-paragraph {
+		display:flex;
+		flex-direction:column;
+	}
+
+	.paragraph {
+		text-align:justify;
+		width:100%;
+	}
+
+	.paragraph-1 {
+		padding-right:0px;
+		margin-bottom:50px;
+	}
+
+	.paragraph-2 {
+		padding-left:0px;
+	}
+
+	/* other modifications which doesn't work with the child-theme 
+	are in the Divi theme CSS customizer */
+
+	/* section 4 */
+
+	.identity-titre {
+		font-size:25px;
+	}
+
+	/*** footer ***/
+
+	#footer-bottom {
+		padding:0px;
+		padding:30px 0px 30px 0px;
+	}
+
+	/* text */
+	.container-footer {
+		flex-direction:column;
+		justify-content: center;
+		align-items:center;
+		text-align: center;
+	}
+  
+    .container-footer div:nth-child(2) {
+      	margin-right:0px;
+    }
+
+	/* text position */
+	.container-footer div {
+		margin-top:40px;
+	}
+
+	.container-footer div:first-child {
+		margin-top:0px;
+	}
+
+	/******* CONSULTING *******/
+
+	.position-sub-ul, .section-3-flex {
+		display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	}
+
+	/******* WHO ARE WE ? *******/
+
+	/* section 1 */
+
+	.identity-responsive {
+		width:100%;
+		margin:auto;
+	}
+
+	.ul-content {
+		padding-bottom:10px;
+	}
+
+	.identity-content {
+		margin-bottom:110px;
+		padding-top:50px;
+	}
+
+	#jmr-title {
+		margin-bottom:0px;
+	}
+
+	#jmr-container {
+		padding-left:0px;
+	}
+
+	#jmr-content {
+		padding-top:30px;
+		margin-bottom:50px;
+	}
+
+	#fr {
+		margin-bottom:20px;
+	}
+
+	/* section 3 */
+
+	.paragraph-who {
+		padding-right:0px;
+	}
+
+	/******* IMAGO *******/
+
+	.paragraph-who {
+		margin-bottom:0px;
+		position:relative;
+		bottom:-10px;
+	}
+	
+}
+
+@media all and (max-width:1100px) {
+
+	#top-menu li {
+
+		padding-right:10px;
+		font-size:12.5px;
+	}
+}
+
+@media all and (max-width:980px) {
+
+	#content-head {
+		width:100%;
+	}
+  
+  	.et_pb_column {
+		margin-bottom:0px;
+	}
+
+	/******* HOMEPAGE ********/
+
+
+	/*** primary menu ***/
+
+	/* navbar content width */
+	#menu-container
+ 	{
+ 		width:80%;
+	}
+
+	/*** section-2 : icones ***/
+
+	#icone_1 {
+		position:relative;
+		top:-70px;
+	}
+
+	#icone_2 {
+		position:relative;
+		top:-50px;
+	}
+
+	#icone_3 {
+		position:relative;
+		top:-20px;
+	}
+
+	#icone_4 {
+		position:relative;
+		top:-20px;
+	}
+
+	.et_pb_row.et_pb_row_1.et_pb_row_4col {
+
+		padding-top:70px;
+	}
+
+	/*** section 4 : content ***/
+
+	/* who-we-are texts */
+	.who-we-are-container {
+		display:flex;
+		flex-direction:column;
+	}
+
+	/*** section 4 ***/
+
+	/* spacing */
+
+	/* rows */
+	.wwa-2 {
+		margin:0px;
+	}
+
+	.wwa-1 {
+		margin-bottom:30px;
+	}
+
+	/* pictures */
+
+	.logo-flex {
+		width:100%;
+		display:flex;
+	}
+
+	#fr img, #jmr img {
+
+		width:140px;
+		display:block;
+		margin:auto;
+	}
+
+	/******* CONSULTING *******/
+
+	/*** intro ***/
+
+	.consulting-top-intro {
+
+		margin-top:35px;
+	}
+
+	/*** sections 2 ***/
+
+	#consulting-column-2 {
+		flex-direction:column-reverse;
+	}
+
+	#consulting-column-2-image {
+		margin-bottom:40px;
+	}
+
+	.position-sub-ul p {
+
+		text-align:center;
+	}
+
+	.list-flex {
+		margin:0px;
+		flex-direction:column;
+		width:70%;
+		margin:auto;
+		margin-bottom:30px;
+	}
+
+	.div-content {
+		padding-top:20px;
+	}
+
+	/*** section 3 ***/
+
+	/* modify gap between p and divider for this section */
+
+	.paragraph-consulting {
+		margin-bottom:20px;
+	}
+
+	/*** section 4 ***/
+
+	.consulting-top-intro {
+		width:80%;
+	}
+
+	/* admin part reverse */
+	.column-reverse {
+
+		display:flex;
+  		flex-direction:column-reverse;
+	}
+
+	/******* WHO ARE WE ? *******/
+
+	.identity-responsive {
+		width:100%;
+		margin:auto;
+	}
+
+	/******* CONTACT ********/
+
+	/* contact row */
+	.contact-row-img {
+		display:none;
+	}
+
+	.contact-us-container.contact-row-content {
+		flex-direction:column;
+		width:100%;
+		justify-content:center;
+		align-items:center;
+	}
+
+	.contact-us-content-1.contact-row-content-1 {
+		padding-top:25px;
+	}
+
+	.footer-divider.contact-row-divider {
+		padding-top:2px;
+		width:50%;
+		margin-top:40px;
+	}
+
+	/* location */
+	.flex.contact-container {
+		flex-direction:column;
+	}
+
+	iframe, .address-container {
+		width:100%;
+		height:300px;
+	}
+
+
+}
+
+@media all and (max-width:800px) {
+
+	.h2-content {
+		text-align:left;
+	}
+
+	/******* HOMEPAGE *******/
+
+	/*** section 4 ***/
+
+	.identity-pictures-div {
+		width:100%;
+		position:relative;
+		margin:auto;
+	}
+
+	.identity-picture-container {
+		display:flex;
+		flex-direction:column-reverse;
+	}
+
+	.identity-pictures-img {
+		margin:auto;
+	}
+
+	#identity-1 {
+		margin-bottom:40px;
+	}
+
+	.identity-titre {
+		font-size:26px;
+	}
+
+	#first-identity-pictures {
+		margin:auto;
+		position:relative;
+	}
+
+	#second-identity-pictures {
+		margin:auto;
+		margin-bottom:40px;
+	}
+
+	/* content */
+	.who-we-are-icon {
+		display:none;
+	}
+
+	.who-we-are-text {
+		width:100%;
+		border-radius:20px;
+	}
+
+	/*** section 5 ***/
+
+	.contact-us {
+		width:70%;
+		min-width:70%;
+	}
+
+	.contact-us-container {
+		display:flex;
+		flex-direction:column;
+	}
+
+	.contact-us-content-1 {
+		width:100%;
+	}
+
+	.contact-us h2 {
+		padding-bottom:0px;
+	}
+
+	.second-content {
+		margin-top:0px;
+	}
+
+	.footer-divider {
+		padding:0px;
+		width:50%;
+		height:2px;
+		margin:auto;
+		margin-bottom:30px;
+		margin-top:40px;
+	}
+
+	.contact-us-content p:nth-child(2), .contact-us-content p:nth-child(4), .contact-us h2 {
+		font-size:30px;
+	}
+
+	.contact-us-content p:first-child, .contact-us-content p:nth-child(3) {
+		margin-bottom:1em;
+	}
+	
+  	/****** PRICING *******/
+
+	
+	/****** CONTACT ******/
+
+	.contact-row-container {
+		background:#F4F4F4;
+		display:flex;
+		flex-direction:column;
+	}
+
+}
+
+@media all and (max-width:760px) { 
+
+	.et_pb_row_1-4_1-4>.et_pb_column.et_pb_column_1_4:nth-child(even), 
+	.et_pb_row_1-4_1-4_1-2>.et_pb_column.et_pb_column_1_4:nth-child(even), 
+	.et_pb_row_4col>.et_pb_column.et_pb_column_1_4:nth-child(even),
+	.et_pb_row_4col>.et_pb_column.et_pb_column_1_4,
+	.et_pb_bottom_divider .et_pb_row:nth-last-child(2) .et_pb_column:last-child, 
+	.et_pb_row .et_pb_column.et-last-child, 
+	.et_pb_row .et_pb_column:last-child {
+	    width: auto;
+	    margin: auto;
+	    height:auto;
+	    float:left;
+	    width:100%;
+	}
+
+}
+
+@media all and (max-width:718px) {
+
+	/****** WHO ARE WE ? *******/
+
+	/* settings of "paragraph" items are in the Divi theme customizer */
+
+	.paragraph.identity.paragraph-1 {
+		margin-bottom:35px;
+	}
+
+	.title-identity {
+		font-size:28px;
+		padding-bottom:20px;
+	}
+
+	#no-indent, 
+	#no-indent-2,
+	#no-indent-3,
+	#no-indent-4,
+	#no-indent-5 {
+		text-indent:0px;
+		font-size:20px;
+	}
+
+	#no-indent-3,
+	#no-indent-4 {
+		padding-bottom:20px;
+	}
+
+	.identity-content, #jmr-content {
+		padding-top:15px;
+		margin-bottom:35px;
+	}
+
+	#jmr-content {
+		padding-top:15px;
+	}
+
+	.identity-content p {
+		text-align:center;
+	}
+
+	.ul-content.ul-identity li {
+		margin-bottom:25px;
+	}
+
+	#jmr img {
+		width:30%;
+	}
+  
+  /** paypal page **/
+
+  /* connexion page */
+  .et_password_protected_form {
+     width:90%;
+  }
+
+}
+
+
+@media all and (max-width:450px) {
+
+	.strong {
+		font-size:17px;
+	}
+
+	/******* HOMEPAGE *******/
+
+	/*** section 4 ***/
+
+	.who-we-are-text {
+		padding:8%;
+	}
+
+	.who-we-are-text p {
+		text-indent:30%;
+	}
+
+	/*** section 5 ***/
+
+	.contact-us {
+		width:90%;
+	}
+	
+	/*** footer ***/
+
+	/* padding */
+	body.et_divi_theme #footer-bottom {
+		padding-bottom:50px!important;
+	}
+
+	#footer-bottom {
+		padding:0px;
+		padding:50px 0px 50px 0px;
+	}
+
+	/******* CONSULTING *******/
+
+	.consulting-intro {
+		margin-bottom:20px;
+	}
+
+	.paragraph.identity.paragraph-1.paragraph-consulting {
+		margin-bottom:20px;
+	}
+
+	/* mediation */
+
+	.img-float-left {
+
+		text-align: justify; 
+		display:block;
+		float: none; 
+		margin:auto;
+		width:100%;
+
+	}
+
+	.img-float-left img {
+
+		width:100%;
+	}
+
+	/******** WHO ARE WE ? ********/
+
+	#no-indent,
+	#no-indent-2,
+	#no-indent-3,
+	#no-indent-4,
+	#no-indent-5 {
+		line-height:30px;
+		font-size:22px;
+	}
+	
+	/******** PRICING ********/
+
+	.spacing-sup {
+		
+		margin-bottom:10px;
+	}
+
+	/******** CONTACT ********/
+
+	/* contact form */
+	/** rest of styles are in the Divi code section **/
+	#popmake-676 {
+		width:90%;
+		padding-left:10px;
+		padding-right:10px;
+	}
+
+	.address-container {
+		height:200px;
+		margin-bottom:50px;
+	}
+
+	.address-div p {
+		font-size:25px;
+	}
+
+	.address-div p:nth-child(1), .address-div p:nth-child(2) {
+		padding-bottom:15px;
+	}
+
+}
